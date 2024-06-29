@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+#heading,
+h1,
+p,
+li {
+    font-family: "Noticia", 'Times New Roman', Times, serif;
+}
+
+#heading {
+    font-weight: bold;
+}
+
+li {
+    font-size: large;
+}
+
+.card-img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    color: red;
+}
+
+.pagination-div {
+    display: flex;
+    justify-content: center;
+}
+
+.pagination li a {
+    color: #000;
+    /* font-weight: bold; */
+}
+
+.card-img-overlay {
+    text-align: left;
+}
+
+/* * {
+    filter: grayscale(50%);
+    background: url("https://img.freepik.com/free-photo/vintage-crumpled-paper-textured-background_53876-103940.jpg?t=st=1719163443~exp=1719167043~hmac=10cb525cd063b9c8c50e6e8cec89fba4101223292f75708f741430ace5795f4b&w=996");
+    background-position: center;
+    background-size: contain;
+} */
